@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Language" content="pt-br" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="data:image/png;base64,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"
+    />
+    <title>#9500FF</title>
+    <style>
+      @keyframes animation {
+        0% {
+          left: 0vw;
+          font-size: 0;
+          color: transparent;
+          filter: blur(3vh);
+        }
+
+        45% {
+          font-size: 5vh;
+          color: hsl(275, 100%, 80%);
+          filter: blur(0px);
+        }
+
+        55% {
+          color: hsl(275, 100%, 80%);
+          filter: blur(0px);
+        }
+
+        100% {
+          left: 2vw;
+          font-size: 10vh;
+          filter: blur(3vh);
+          color: transparent;
+        }
+      }
+
+      @keyframes blur {
+        0% {
+          font-size: 11vh;
+          filter: blur(0);
+          color: hsl(275, 100%, 80%);
+        }
+
+        50% {
+          font-size: 0.5vh;
+        }
+
+        100% {
+          right: -15vw;
+          font-size: 0vh;
+          filter: blur(11vh);
+          color: transparent;
+        }
+      }
+
+      h1 {
+        margin: 0;
+      }
+
+      body {
+        margin: 0;
+        background-color: hsl(275, 100%, 5%);
+        position: relative;
+        overflow: hidden;
+        display: flex;
+      }
+
+      .bar {
+        height: 100vh;
+        width: 10vw;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(
+          90deg,
+          rgba(0, 0, 0, 1) 0%,
+          rgba(149, 0, 255, 1) 100%
+        );
+      }
+
+      .content {
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        /* margin-left: 10vw; */
+        border-left: 1vw solid hsl(275, 100%, 50%);
+        /* box-shadow: 0px 0px 10vw hsl(275, 100%, 50%),
+          -0.1vw 0 0.3vw hsl(275, 100%, 50%); */
+      }
+
+      button {
+        padding: 0;
+        background-color: transparent;
+        border: 0;
+        cursor: pointer;
+      }
+
+      .container {
+        margin-left: 1vw;
+        display: flex;
+        align-items: center;
+        position: relative;
+        height: 16vh;
+        justify-content: space-between;
+      }
+
+      button:disabled .text {
+        cursor: unset;
+        text-shadow: none;
+      }
+
+      .text {
+        position: absolute;
+        left: 0;
+        color: hsl(275, 100%, 50%);
+        font-size: 10vh;
+        font-family: "Fira Code", Arial, Helvetica, sans-serif;
+        margin: 0;
+        transition: font-size 0.5s, text-shadow 0.5s linear;
+        text-shadow: 0.5vh 0 0.5vh hwb(275 60% 0%),
+          -0.5vh 0 0.5vh hsl(275, 100%, 80%), 0 -0.5vh 0.5vh hsl(275, 100%, 80%),
+          0 0.5vh 0.5vh hsl(275, 100%, 80%);
+      }
+
+      button:hover .text {
+        font-size: 11vh;
+      }
+
+      .text-fog {
+        color: transparent;
+        text-shadow: none;
+        position: absolute;
+        font-size: 11vh;
+        user-select: none;
+        z-index: -1;
+        text-align: end;
+        right: 0;
+      }
+
+      button:disabled .text-fog {
+        animation: blur 2s ease-in;
+      }
+
+      .animation {
+        font-family: "Fira Code", Arial, Helvetica, sans-serif;
+        left: 0;
+        position: absolute;
+        color: transparent;
+        user-select: none;
+        font-size: 10vh;
+      }
+
+      button:disabled + .flex .animation {
+        animation: animation 2s linear;
+      }
+
+      button:disabled + .flex .animation.static,
+      button:disabled .text-fog.static,
+      .text-fog.static,
+      .animation.static {
+        color: transparent;
+        animation: none;
+        text-shadow: none;
+        position: static;
+      }
+
+      .flex {
+        position: relative;
+        display: flex;
+        align-items: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="bar"></div>
+    <div class="content">
+      <div class="container">
+        <button class="flex" onclick="copyText('#9500ff', this)">
+          <h1 class="text">#9500ff</h1>
+          <h1 class="text text-fog">#9500ff</h1>
+          <h1 class="text text-fog static">#9500ff</h1>
+        </button>
+        <div class="flex">
+          <h1 class="animation">Copied</h1>
+          <h1 class="animation static">Copied</h1>
+        </div>
+      </div>
+
+      <div class="container">
+        <button class="flex" onclick="copyText('rgb(149, 0, 255)', this)">
+          <h1 class="text">rgb(149, 0, 255)</h1>
+          <h1 class="text text-fog">rgb(149, 0, 255)</h1>
+          <h1 class="text text-fog static">rgb(149, 0, 255)</h1>
+        </button>
+        <div class="flex">
+          <h1 class="animation">Copied</h1>
+          <h1 class="animation static">Copied</h1>
+        </div>
+      </div>
+
+      <div class="container">
+        <button class="flex" onclick="copyText('hsl(275, 100%, 50%)', this)">
+          <h1 class="text">hsl(275, 100%, 50%)</h1>
+          <h1 class="text text-fog">hsl(275, 100%, 50%)</h1>
+          <h1 class="text text-fog static">hsl(275, 100%, 50%)</h1>
+        </button>
+        <div class="flex">
+          <h1 class="animation">Copied</h1>
+          <h1 class="animation static">Copied</h1>
+        </div>
+      </div>
+
+      <div class="container">
+        <button class="flex" onclick="copyText('hwb(275 0% 0%)', this)">
+          <h1 class="text">hwb(275 0% 0%)</h1>
+          <h1 class="text text-fog">hwb(275 0% 0%)</h1>
+          <h1 class="text text-fog static">hwb(275 0% 0%)</h1>
+        </button>
+        <div class="flex">
+          <h1 class="animation">Copied</h1>
+          <h1 class="animation static">Copied</h1>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function copyText(text, reference) {
+        reference.disabled = true;
+        navigator.clipboard.writeText(text);
+        setTimeout(function () {
+          reference.disabled = false;
+        }, 2000);
+      }
+    </script>
+  </body>
+</html>
